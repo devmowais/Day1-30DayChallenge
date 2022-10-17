@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url('https://images2.alphacoders.com/611/611494.jpg') bottom center;
+    background: url('https://wallpaperaccess.com/full/1262449.jpg') bottom center;
     background-size: cover;
   }
   
@@ -19,12 +19,12 @@ html {
   }
   
   .key {
-    border: .2rem solid black;
+    border: .4rem solid rgba(231, 247, 0, 0.185);
     border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
-    transition: all .05s ease;
+    transition:all 0.05s ease;
     width: 10rem;
     text-align: center;
     color: white;
@@ -34,8 +34,8 @@ html {
   
   .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+    border-color: #bcff05;
+    box-shadow: 0 0 1rem #bcff05;
   }
   
   kbd {
@@ -44,8 +44,10 @@ html {
   }
   
   .sound {
+    transform: scale(1.1);
+    transition: 0.05s ease;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #ffee00;
   }
